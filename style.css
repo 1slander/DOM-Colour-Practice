@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+  background-color: lightgray;
+}
+
+.container {
+  border: solid 5px black;
+  padding: 25vh;
+  background-color: #fff;
+}
+
+.header {
+  color: #000;
+  font-size: 32px;
+  margin: 20px;
+}
+
+.new-colour button {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: solid 1px black;
+}
+
+.new-colour button:active {
+  background-color: lightblue;
+}
